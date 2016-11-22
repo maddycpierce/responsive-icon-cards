@@ -26,31 +26,39 @@ h2 {
   margin-bottom: 0;
 }
 
-.card-body h2 {
-  margin-left: 0;
-}
-
 p {
   margin-top: 0;
 }
 
+ul {
+  padding: 0;
+}
+
+ul li {
+  text-decoration: none;
+}
+
 .card {
   padding-bottom: 1.5em;
+  display: block;
 }
 
 .cards {
   list-style-type: none;
-  display: inline-block;
+  margin: 0;
   padding-left: .5em;
 }
 
 .card-img img {
   width: 50px;
-  display: block;
 }
 
 .card-body p {
   margin: 0;
+}
+
+.card-body h2 {
+  margin-left: 0;
 }
 
 @media only screen and (min-width: 25em) {
