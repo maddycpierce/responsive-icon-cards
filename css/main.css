@@ -98,11 +98,42 @@ ul li {
     margin-top: 25px;
   }
 
+  .card-body {
+    margin-left: 20px;
+    display: inline-block;
+    position: absolute;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  .card {
+    width: 30%;
+  }
+
+  .card-img {
+    display: inline-block;
+    transform: translateX(60%);
+  }
+
+  .card-body {
+    margin-left: 20px;
+    display: block;
+    position: absolute;
   }
 
 }
