@@ -61,7 +61,7 @@ ul li {
   margin-left: 0;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
   html {
     font-size: 100%;
@@ -71,6 +71,8 @@ ul li {
   .card-img {
     width: 50px;
     display: block;
+    transform: translateX(40%);
+    margin: 1em 0;
   }
 
 }
