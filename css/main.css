@@ -17,19 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
-h2 {
-  font-weight: normal;
-  margin-bottom: 0;
-}
-
-p {
-  margin-top: 0;
-}
-
 ul {
   padding: 0;
 }
@@ -39,14 +26,12 @@ ul li {
 }
 
 .card {
-  padding-bottom: 1.5em;
   display: block;
 }
 
 .cards {
   list-style-type: none;
   margin: 0;
-  padding-left: .5em;
 }
 
 .card-img img {
@@ -54,11 +39,11 @@ ul li {
 }
 
 .card-body p {
-  margin: 0;
+  font-weight: normal;
 }
 
 .card-body h2 {
-  margin-left: 0;
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 20em) {
@@ -131,9 +116,9 @@ ul li {
   }
 
   .card-body {
-    margin-left: 20px;
+    margin-left: 5px;
     display: block;
-    position: absolute;
+    position: relative;
   }
 
 }
@@ -143,6 +128,35 @@ ul li {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .cards h2 {
+    font-size: 1.6rem;
+  }
+
+  .cards p {
+    font-size: 1.1rem;
+  }
+
+}
+
+@media only screen and (min-width: 87em) {
+
+  .card {
+    width: 30%;
+    display: inline-block;
+  }
+
+  .card-img {
+    display: inline-block;
+    transform: translateX(30%);
+    margin-top: 25px;
+  }
+
+  .card-body {
+    margin-left: 5px;
+    display: block;
+    position: relative;
   }
 
 }
